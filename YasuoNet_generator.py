@@ -9,6 +9,7 @@ def generate(url):
     segment_length = 3
     video_sample_rate = 2
     video_width, video_height = 64, 64
+    audio_sample_rate = 22050
     apply_mfcc=True
     output_dataset_dir = './data'
     
